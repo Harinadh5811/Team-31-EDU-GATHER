@@ -1,0 +1,39 @@
+.groups-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.group-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.group-item {
+  background-color: rgb(35, 33, 33);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  width: 300px;
+  text-align: center; /* Center content */
+  color: white;
+}
+
+.group-item h2 {
+  margin-bottom: 10px;
+}
+
+.group-item p {
+  color: #ffffff;
+}
+
+.group-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+ 
+  border: 2px solid white;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}

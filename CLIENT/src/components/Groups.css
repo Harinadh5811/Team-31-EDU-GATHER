@@ -1,0 +1,19 @@
+.App-title {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-top: 50px;
+}
+
+.button-red {
+  background-color: #1565c0; /* Set button background color to red */
+  color: rgb(255, 255, 255); /* Set button text color to white */
+  width: 100%; /* Ensure the button occupies full width */
+  transition: background-color 0.3s; /* Add a transition for hover effect */
+  border-radius: 5px;
+}
+
+.button-red:hover {
+  background-color: rgb(102, 183, 218); /* Darken button on hover */
+}
